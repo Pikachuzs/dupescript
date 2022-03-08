@@ -98,7 +98,7 @@ local function DupeScript() -- Button.Script
 	local script = Instance.new('Script', Button)
 
 	Button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/fikury/dupescripts/main/dupescript.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fikury/petsimdupe/main/Version2"))()
 	end)
 end
 coroutine.wrap(DupeScript)()
